@@ -16,7 +16,7 @@ namespace Lockstep {
 		public FastList<ushort> selectedAgentLocalIDs = new FastList<ushort>();
         private  BitArray Header;
         private readonly FastList<byte> Data = new FastList<byte>();
-       
+    
         public Selection() {}
 
 
