@@ -465,10 +465,10 @@ namespace Lockstep
 		}
 
 		//Backward compat.
-		public static Command GenerateSpawnCommand (AgentController cont, string agentCode, int count, Vector2d position)
-		{
-			return Lockstep.Example.ExampleSpawner.GenerateSpawnCommand (cont, agentCode, count, position, "");
-		}
+		// public static Command GenerateSpawnCommand (AgentController cont, string agentCode, int count, Vector2d position)
+		// {
+		// 	return Lockstep.Example.ExampleSpawner.GenerateSpawnCommand (cont, agentCode, count, position, "");
+		// }
 
 		public void AddAgent (LSAgent agent)
 		{
